@@ -66,8 +66,28 @@ def dumpDbToSql(connection, fileName):
     with open(fileName, 'w') as f:
         for line in connection.iterdump():
             f.write('%s\n' % line)
-            
-            
+
+# def sqliteToSqlConvert(inputFile):
+#     with open(inputFile, 'r') as fin:
+#         for line in fin:
+#             print(line)
+#             print("####################################")
+#             line = line.replace("INSERT INTO", "INSERT IGNORE INTO")
+#             line = line.replace("\"installation_details\"","`instore_ai_devices`,`installation_details`")            
+#             line = line.replace("\"device_details\"","`instore_ai_devices`,`device_details`")            
+
+
+
+def sqliteToSqlConvert(inputFile, outputFile):
+    with open(inputFile, "rt") as fin:
+        with open(outputFile, "wt") as fout:
+            for line in fin:
+                line = line.replace("INSERT INTO", "INSERT IGNORE INTO")
+                line = line.replace("\"installation_details\"","`instore_ai_devices`.`installation_details` (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`)")            
+                line = line.replace("\"device_details\"","`instore_ai_devices`.`device_details` (`device_id`, `lan_mac_id`, `wifi_mac_id`, `po`, `processor`)")            
+                fout.write(line)
+
+
 connection = sqlite3.connect(DB_NAME)
 cursor = connection.cursor()
 cursor.execute("PRAGMA foreign_keys = ON;")
@@ -77,8 +97,15 @@ cursor.executemany("""insert into device_details values (?,?,?,?,?)""", manipula
 
 # createAccessoryDetailsTable(cursor)
 # cursor.executemany("""insert into accessories_details values (?,?,?,?,?,?,?,?)""", manipulateData.accessories_details)
+actual_query_parameters = []
+for i in manipulateData.installation_details:
+    i = i + (i[0],)
+    actual_query_parameters.append(i)
+print(actual_query_parameters)
 
 createInstallationDetailsTable(cursor)
-cursor.executemany("""insert into installation_details values (?,?,?,?,?,?,?,?,?,?,?)""", manipulateData.installation_details)
+# cursor.executemany("""insert into installation_details (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) values (?,?,?,?,?,?,?,?,?,?,?) where device_id NOT IN (SELECT device_id FROM installation_details where device_id=? and is_active=1)""",actual_query_parameters)
+cursor.executemany("""insert into installation_details (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) values (?,?,?,?,?,?,?,?,?,?,?)""",manipulateData.installation_details)
 
 dumpDbToSql(connection, "database.sql")
+sqliteToSqlConvert("database.sql", "output.sql")
