@@ -1,0 +1,15 @@
+device_id,store_name,wifi_mac_id,lan_mac_id,PO,org_id,store_id,engagement_type,date_dispatched,date_installed,date_callback,hardware_extension,device_name,device_type_id,device_type_desc,processor,lens,with_rf_switch,case_size,case_color,is_active
+202481601940553,Sony Consolidated Madurai,,,,150880,200103502,Pilot,13/08/2018,13/08/2018,,,SC03_Main_Entrance_1,,VM,Rasberry Pi,V2,Yes,,White,1
+202481594652081,Sony Consolidated Trichy,,,,150880,200103504,Pilot,20/08/2018,20/08/2018,,,SC04_Main_Entrance_1,,VM,Rasberry Pi,V2,Yes,,White,1
+202481594572353,Sony Consolidated Coimbatore,,,,150880,200103500,Pilot,20/08/2018,20/08/2018,,,SC02_Main_Entrance_1,,VM,Rasberry Pi,V2,Yes,,White,1
+202481600252745,Sony Consolidated tirunelveli,,,,150880,200103507,Pilot,20/08/2018,20/08/2018,,,SC05_Main_Entrance_1,,VM,Rasberry Pi,V2,Yes,,White,1
+202481587561619,Sony Consolidated Salem,,,,150880,200103498,Pilot,28/08/2018,20/08/2018,,,SC01_Main_Entrance_1,,VM,Rasberry Pi,V2,Yes,,White,1
+202481598131274,CT Pinklao,,,,150284,200048133,Pilot,07/08/2018,07/08/2018,,,,,VM,Rasberry Pi,V2,Yes,,White,1
+202481590738672,Madhapur - Inorbit Mall_1276,,,,150425,200061854,Rollout,02/08/2018,02/08/2018,,,,,VM,Rasberry Pi,V2,No,,White,1
+202481587626530,Salt Lake Kolkatta,b8:27:eb:4f:f7:77,,,150789,200089326,Rollout,06/08/2018,06/08/2018,,,115_1stfloor_1,,VM,Rasberry Pi,V2,No,,White,1
+202481601180559,Salt Lake Kolkatta,b8:27:eb:bc:26:da,,,150789,200089326,Rollout,06/08/2018,06/08/2018,,,115_Groundfloor_1,,VM,Rasberry Pi,V2,No,,White,1
+202481593253880,Salt Lake Kolkatta,b8:27:eb:25:2a:ad,,,150789,200089326,Rollout,06/08/2018,06/08/2018,,,115_Groundfloor_NewMall_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590385305,Salt Lake Kolkatta,b8:27:eb:11:ef:cc,,,150789,200089326,Rollout,06/08/2018,06/08/2018,,,115_Groundfloor_Trumgate_1,,VM,Rasberry Pi,V2,No,,White,1
+202481593178961,RCITY Ghatkopar,b8:27:eb:3a:0e:04,,,150789,200089340,Rollout,06/08/2018,06/08/2018,,NA,162_2ndfloor_Homeshop_1,,VM,Rasberry Pi,V2,No,,White,1
+202481594598003,RCITY Ghatkopar,b8:27:eb:d0:57:26,,,150789,200089340,Rollout,06/08/2018,06/08/2018,,NA,162_2ndfloor_Homeshop_BackEntry_1,,VM,Rasberry Pi,V2,No,,White,1
+202481592309885,Rajori New Delhi,b8:27:eb:37:4d:28,,,150789,200089342,Rollout,23/04/2018,23/04/2018,,,310_1stfloor_1,,VM,Rasberry Pi,V2,No,,White,1

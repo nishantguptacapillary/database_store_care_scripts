@@ -95,8 +95,8 @@ cursor.execute("PRAGMA foreign_keys = ON;")
 createDeviceDetailsTable(cursor)
 cursor.executemany("""insert into device_details values (?,?,?,?,?)""", manipulateData.device_details)
 
-# createAccessoryDetailsTable(cursor)
-# cursor.executemany("""insert into accessories_details values (?,?,?,?,?,?,?,?)""", manipulateData.accessories_details)
+createAccessoryDetailsTable(cursor)
+cursor.executemany("""insert into accessories_details values (?,?,?,?,?,?,?,?)""", manipulateData.accessories_details)
 actual_query_parameters = []
 for i in manipulateData.installation_details:
     i = i + (i[0],)
