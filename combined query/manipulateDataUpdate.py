@@ -13,6 +13,7 @@ def readCsv():
     install = d[["device_id","org_id","store_id", "engagement_type", "date_dispatched", "date_installed", "date_callback", "device_name", "store_name", "is_active"]]
     install["dispatch_type"] = "courier"
     install["date_dispatched"] = install["date_dispatched"].replace(np.nan, "")
+    install["date_callback"] = install["date_callback"].replace(np.nan, "NULL")
 
     install["dispatch_type"][install["date_dispatched"]=="physical deliver"] = "hand_delivered"
     install["dispatch_type"][install["date_dispatched"]=="Physical"] = "hand_delivered"
