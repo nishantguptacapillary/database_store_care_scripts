@@ -1,0 +1,88 @@
+device_id,store_name,wifi_mac_id,lan_mac_id,PO,org_id,store_id,engagement_type,date_dispatched,date_installed,date_callback,hardware_extension,device_name,device_type_id,device_type_desc,processor,lens,with_rf_switch,case_size,case_color,is_active
+202481598057812,CFS_Banjara Hills,,,,1543,12844342,,,2018-07-14,,N/A,CFS_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598194976,CFS_Banjara Hills,,,,1543,12844342,,,2018-07-14,,N/A,CFS_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481587567440,MM BLR MANTRI MALL,,,,810,12794260,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481588600943,MM BLR JAYANAGAR 4th BLOCK,,,,810,12793398,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481594279708,MM BLR INDIRA NAGAR,,,,810,12793381,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598436420,MM BLR JP NAGAR NEW,,,,810,12822639,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598439094,MM BLR KORAMANGALA,,,,810,12841532,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481602220998,MM BLR HSR LAYOUT,,,,810,12794262,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481587739840,MM BLR SAHAKAR NAGAR,,,,810,12793393,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481600373811,MM MANGALORE CITY CENTER MALL,,,,810,12793396,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481594775492,MM-BLR-BROOKEFIELD,,,,810,12793443,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481593985766,MM BLR HBR LYT KAMANAHALLI,,,,810,12793401,,,2007-03-17,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481589295404,Tom Tailor NewDelhi,,,,1575,12842363,,,2017-07-10,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598361449,Tom Tailor Pune,,,,1575,12841735,,,2018-08-16,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481599477833,Tom Tailor Kolkata,,,,1575,12842367,,2018-08-08,2018-09-04,,N/A,IRIkol_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598437703,Kalki Fashions Santacruz,,,,1100,12817067,,,2018-05-09,,N/A,,,VM,Rasberry Pi,V2,No,,White,0
+202481592265393,Mini Klub Amristar,,,,1642,12845851,,2018-10-03,2018-10-10,,N/A,MKamristar_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481601645487,PC Jewelers Faridiabad,,,,1543,12840711,,,,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481594322437,Amritsar,,,,725,12788076,,,2018-07-17,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481599553492,Jayanagar,,,,725,12836304,,,2018-07-24,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481597671612,Orion Mall,,,,725,12788059,,,2018-07-13,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481601395713,100 FT Road,,,,725,12828855,,,2018-06-15,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481591164356,PMC Chennai,,,,725,12826803,,,2018-06-15,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481588257952,Chandigarh,,,,725,12788075,,,2018-07-23,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481595676897,Adyar,,,,725,12836549,,,2018-07-19,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481592170744,Chennai,,,,725,12788056,,,2018-06-18,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481594708945,Elante Mall,,,,725,12814998,,,2018-07-19,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481589264989,DLF Emporio,,,,725,12826439,,,2018-06-13,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481597887957,DLF Emporio,,,,725,12826439,,,2018-06-13,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481588298670,Ambience,,,,725,12788071,,,2018-06-19,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481596602204,Hyderabad,,,,725,12788060,,,2018-06-14,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481589421590,BEL Road,,,,725,12840069,,,2018-06-15,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481587432903,PMC BLR,,,,725,12830957,,,2018-07-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481589971029,Quest Mall,,,,725,12819605,,,2018-07-04,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481596992392,Quest Mall,,,,725,12819605,,,2018-07-04,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481593342489,South City,,,,725,12788054,,,2018-07-04,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481600483012,Woodburn,,,,725,12788053,,,2018-06-13,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481590562550,Lucknow,,,,725,12788074,,,2018-07-23,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481595416396,Ludhiana,,,,725,12788077,,,2018-06-18,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481595718119,OBEROI RK LABEL,,,,725,12831461,,,2018-07-25,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598044679,OBEROI RK LABEL,,,,725,12831461,,,2018-07-25,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481594780564,Seawood,,,,725,12834670,,,2018-07-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481602049371,Seawood,,,,725,12834670,,,2018-07-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481599594056,Seawood RK,,,,725,12838837,,,2018-07-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481602103435,Seawood RK,,,,725,12838837,,,2018-07-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598513161,Infiniti,,,,725,12796743,,,2018-06-13,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598672383,Juhu,,,,725,12788432,,,2018-06-12,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481586971406,Kurla,,,,725,12820996,,,2018-07-17,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481586015579,Palladium Rk,,,,725,12788065,,,2018-07-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481591851238,Palladium Rk,,,,725,12788065,,,2018-07-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481588675569,Saket,,,,725,12837157,,,2018-06-29,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481599497998,Rajouri Garden,,,,725,12834828,,,2018-06-27,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481590886741,Archana,,,,725,12788069,,,2018-06-11,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481588531170,Dlf Promen,,,,725,12788072,,,2018-06-13,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598454990,Dlf Promen,,,,725,12788072,,,2018-06-13,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481590215625,Khan Market,,,,725,12810389,,,2018-08-01,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481589625576,South Ext,,,,725,12795739,,,2018-06-14,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481589036111,Pune,,,,725,12788067,,,2018-06-12,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481590016863,Ahmedabad,,,,725,12825345,,,2018-07-12,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481588685232,Surat,,,,725,12826278,,,2018-06-18,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481590037418,Surat,,,,725,12826278,,,2018-06-18,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481590798231,Kanpur,,,,725,12826622,,,2018-07-23,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481593988345,MOI Label,,,,725,12828645,,,2018-07-05,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481602197197,MOI RK,,,,725,12828642,,,2018-07-05,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481594108256,Baroda,,,,725,12837399,,,2018-08-01,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481596472527,Patna FOCO,,,,725,12840905,,,2018-08-01,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481601633397,Varanasi FOCO,,,,725,12842098,,,2018-08-07,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481597329712,Oberoi 2,,,,725,12788063,,,2018-08-01,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481586590836,Siliguri,,,,725,12838623,,,2018-08-16,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481601785123,Jaipur,,,,725,12788078,,,2018-08-17,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481586701488,LABEL Ranchi,,,,725,12841524,,,2018-07-31,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481598843319,ritukumar_Jaipur,,,,725,12840210,,,2018-08-17,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481591887647,Dehradun,,,,725,12837786,,,2018-08-23,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481594981172,INDORE C21 Label,,,,725,12842534,,,2018-08-28,,N/A,R117_Mainentrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590767355,Dtmega Mall,,,,725,12788073,,,2018-07-27,,N/A,009_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481594167773,Ritu Kumar Indore FOCO,,,,725,12838835,,,2018-08-28,,N/A,R102_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481591076181,Pavilion,,,,725,12818793,,2018-06-05,2018-09-20,,N/A,R057_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481595098255,Banglore,,,,725,12788057,,2018-07-20,2018-09-25,,N/A,006_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596251848,Mantri Square malleshwaram,,,,1481,12837372,,,,,N/A,002_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481587568900,Mantri Square malleshwaram,,,,1481,12837372,,,,,N/A,002_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481592019077,Stellar Behari Avenue,,,,1611,12844743,,2018-08-20,2018-08-27,,N/A,StellarBehariAvenue_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481592875877,Stellar Bindhannagar,,,,1611,12844745,,2018-08-20,2018-08-27,,N/A,StellarBindhannagar_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596237615,Schillere AJC Bose Road,,,,1611,12844754,,2018-08-20,2018-08-28,,N/A,SchillereAJCBoseRoad_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596559458,Stellar AJC Bose Road,,,,1611,12844752,,2018-08-20,2018-08-28,,N/A,StellarAJCBoseRoad_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481602196509,Stellar VIP Road Raghunathpur,,,,1611,12844748,,2018-08-29,2018-09-04,,N/A,Raghunathpur_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596122492,SB Salkia,,,,1555,12840520,,,2018-05-03,,N/A,,,VM,Rasberry Pi,V2,No,,White,1
+202481600136184,tbz mumbai borivalli,,,,1543,12844241,,,2018-07-05,,N/A,,,VM,Rasberry Pi,V2,No,,White,1

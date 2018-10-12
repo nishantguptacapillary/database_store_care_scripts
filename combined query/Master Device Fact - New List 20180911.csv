@@ -1,0 +1,5 @@
+device_id,store_name,wifi_mac_id,lan_mac_id,PO,org_id,store_id,engagement_type,date_dispatched,date_installed,date_callback,hardware_extension,device_name,device_type_id,device_type_desc,processor,lens,with_rf_switch,case_size,case_color,is_active
+202481600616044,Malad Mumbai,b8:27:eb:fb:3e:ca,,,150789,200089317,Rollout,2018-04-24,2018-04-24,,,114_1stfloor_2,,VM,Rasberry Pi,V2,No,,White,1
+202481588466457,H79 Marketcity Whitefield,,,,150286,200058785,Pilot,2018-09-02,2018-09-03,,,h79_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481601973006,Sony Consolidated Salem,,,,150880,200103498,Pilot,2018-08-28,2018-08-20,,,SC01_Main_Entrance_1,,VM,Rasberry Pi,V2,Yes,,White,1
+202481595840838,T03 The Forum,,,,150286,200030043,Pilot,2018-09-02,2018-09-06,,,T03_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1

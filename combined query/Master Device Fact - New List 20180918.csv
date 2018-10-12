@@ -1,0 +1,2 @@
+device_id,store_name,wifi_mac_id,lan_mac_id,PO,org_id,store_id,engagement_type,date_dispatched,date_installed,date_callback,hardware_extension,device_name,device_type_id,device_type_desc,processor,lens,with_rf_switch,case_size,case_color,is_active
+202481589276273,Shipra Ghaziabad,b8:27:eb:66:9b:24,,,150789,200089347,Rollout,2018-04-27,2018-04-27,,N/A,120_GroundFloor_3,,VM,Rasberry Pi,V2,No,,White,1

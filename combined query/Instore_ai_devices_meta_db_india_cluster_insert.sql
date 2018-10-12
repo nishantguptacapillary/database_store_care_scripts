@@ -1,16 +1,16 @@
-BEGIN TRANSACTION;
-CREATE TABLE accessories_details (
-        device_id INTEGER NOT NULL,
-        with_rf_switch BOOLEAN,
-        device_id_desc CHAR(2) CHECK(device_id_desc IN ('VM', 'HM', 'CE', 'AC', 'PE')) NOT NULL,
-        hardware_extension VARCHAR(10) CHECK(hardware_extension IN ('17 cm', '5 inch', '1-2 feet',
-        '2-4 feet', '3-6 feet', '4-8 feet', '5-10 feet', 'none')) NULL,
-        camera VARCHAR(10) CHECK(camera IN ('PiCam_V1', 'PiCam_V2', 'FE_H', 'FE_I', 'FE_J')) NULL,
-        case_color CHAR(5) CHECK(case_color IN ('black', 'white')) NOT NULL,
-        case_size CHAR(5) CHECK(case_size IN ('small', 'large')) NOT NULL,
-        microphone CHAR(3) CHECK(microphone IN ('mic', 'none')) NULL,
-        FOREIGN KEY(device_id) REFERENCES device_details(device_id)
-        );
+CREATE DATABASE  IF NOT EXISTS `instore_ai_devices`;
+CREATE TABLE IF NOT EXISTS `instore_ai_devices`.`accessories_details` (`id` int(11) not null auto_increment primary key,
+	`device_id` bigint(20) NOT NULL,
+	`with_rf_switch` BOOLEAN,
+	`device_id_desc` ENUM ('VM', 'HM', 'CE', 'AC', 'PE') NOT NULL,
+	`hardware_extension` ENUM('17 cm', '5 inch', '1-2 feet','2-4 feet', '3-6 feet', '4-8 feet', '5-10 feet','none') NULL,
+	`camera` ENUM ('PiCam_V1', 'PiCam_V2', 'FE_H', 'FE_I', 'FE_J', 'none') NULL,
+	`case_color` ENUM('black', 'white') NULL,
+	`case_size` ENUM('small', 'large') NULL,
+	`microphone` ENUM('mic', 'none') NULL,
+	`auto_update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, 
+	KEY `device_id` (`device_id`));
+DELETE FROM `instore_ai_devices`.`accessories_details`;
 INSERT IGNORE INTO `instore_ai_devices`.`accessories_details` (`device_id`,`with_rf_switch`,`device_id_desc`,`hardware_extension`,`camera`,`case_color`,`case_size`,`microphone`) VALUES(202481598057812,0,'VM','none','PiCam_V2','white','large','none');
 INSERT IGNORE INTO `instore_ai_devices`.`accessories_details` (`device_id`,`with_rf_switch`,`device_id_desc`,`hardware_extension`,`camera`,`case_color`,`case_size`,`microphone`) VALUES(202481598194976,0,'VM','none','PiCam_V2','white','large','none');
 INSERT IGNORE INTO `instore_ai_devices`.`accessories_details` (`device_id`,`with_rf_switch`,`device_id_desc`,`hardware_extension`,`camera`,`case_color`,`case_size`,`microphone`) VALUES(202481587567440,0,'VM','none','PiCam_V2','white','large','none');
@@ -98,13 +98,17 @@ INSERT IGNORE INTO `instore_ai_devices`.`accessories_details` (`device_id`,`with
 INSERT IGNORE INTO `instore_ai_devices`.`accessories_details` (`device_id`,`with_rf_switch`,`device_id_desc`,`hardware_extension`,`camera`,`case_color`,`case_size`,`microphone`) VALUES(202481602196509,0,'VM','none','PiCam_V2','white','large','none');
 INSERT IGNORE INTO `instore_ai_devices`.`accessories_details` (`device_id`,`with_rf_switch`,`device_id_desc`,`hardware_extension`,`camera`,`case_color`,`case_size`,`microphone`) VALUES(202481596122492,0,'VM','none','PiCam_V2','white','large','none');
 INSERT IGNORE INTO `instore_ai_devices`.`accessories_details` (`device_id`,`with_rf_switch`,`device_id_desc`,`hardware_extension`,`camera`,`case_color`,`case_size`,`microphone`) VALUES(202481600136184,0,'VM','none','PiCam_V2','white','large','none');
-CREATE TABLE device_details (
-        device_id INTEGER PRIMARY KEY,
-        lan_mac_id VARCHAR(50),
-        wifi_mac_id VARCHAR(50),
-        po VARCHAR(50), 
-        processor VARCHAR(15) CHECK(processor IN ('RaspberryPi_3B', 'RaspberryPi_3B+', 'Intel_i7', 'Tinker', 'Odroid')) NOT NULL
+CREATE TABLE IF NOT EXISTS `instore_ai_devices`.`device_details` (
+		`id` bigint(20) NOT NULL AUTO_INCREMENT,
+        `device_id` bigint(20) NOT NULL UNIQUE,
+        `lan_mac_id` VARCHAR(50),
+        `wifi_mac_id` VARCHAR(50),
+        `po` VARCHAR(50), 
+        `processor` ENUM('RaspberryPi_3B', 'RaspberryPi_3B+', 'Intel_i7', 'Tinker', 'Odroid') NOT NULL,
+        `auto_update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        PRIMARY KEY `device_id` (`id`, `device_id`)
         );
+DELETE FROM `instore_ai_devices`.`device_details`;
 INSERT IGNORE INTO `instore_ai_devices`.`device_details` (`device_id`, `lan_mac_id`, `wifi_mac_id`, `po`, `processor`) VALUES(202481586015579,NULL,NULL,NULL,'RaspberryPi_3B');
 INSERT IGNORE INTO `instore_ai_devices`.`device_details` (`device_id`, `lan_mac_id`, `wifi_mac_id`, `po`, `processor`) VALUES(202481586590836,NULL,NULL,NULL,'RaspberryPi_3B');
 INSERT IGNORE INTO `instore_ai_devices`.`device_details` (`device_id`, `lan_mac_id`, `wifi_mac_id`, `po`, `processor`) VALUES(202481586701488,NULL,NULL,NULL,'RaspberryPi_3B');
@@ -192,20 +196,21 @@ INSERT IGNORE INTO `instore_ai_devices`.`device_details` (`device_id`, `lan_mac_
 INSERT IGNORE INTO `instore_ai_devices`.`device_details` (`device_id`, `lan_mac_id`, `wifi_mac_id`, `po`, `processor`) VALUES(202481602196509,NULL,NULL,NULL,'RaspberryPi_3B');
 INSERT IGNORE INTO `instore_ai_devices`.`device_details` (`device_id`, `lan_mac_id`, `wifi_mac_id`, `po`, `processor`) VALUES(202481602197197,NULL,NULL,NULL,'RaspberryPi_3B');
 INSERT IGNORE INTO `instore_ai_devices`.`device_details` (`device_id`, `lan_mac_id`, `wifi_mac_id`, `po`, `processor`) VALUES(202481602220998,NULL,NULL,NULL,'RaspberryPi_3B');
-CREATE TABLE installation_details (
-        device_id INTEGER NOT NULL,
-        org_id VARCHAR(6) NOT NULL,
-        store_id VARCHAR(9) NOT NULL,
-        engagement_type VARCHAR(7) CHECK(engagement_type IN ('rollout', 'pilot', 'nightly_testing')) NULL DEFAULT NULL,
-        date_dispatched DATETIME,
-        date_installed DATETIME,
-        date_callback DATETIME,
-        device_name VARCHAR(50),
-        store_name VARCHAR(50) NOT NULL,
-        is_active Boolean DEFAULT TRUE,
-        dispatch_type VARCHAR(15) CHECK(dispatch_type IN ('hand_delivered', 'courier')) NOT NULL,
-        FOREIGN KEY(device_id) REFERENCES device_details(device_id)
-        );
+CREATE TABLE IF NOT EXISTS `instore_ai_devices`.`installation_details` (`id` int(11) NOT NULL AUTO_INCREMENT,
+	`device_id` BIGINT(20) NOT NULL,
+	`org_id` bigint(11) NOT NULL,
+	`store_id` bigint(20) NOT NULL,
+	`engagement_type` ENUM('rollout', 'pilot', 'nightly_testing') NULL DEFAULT NULL,
+	`date_dispatched` datetime,
+	`date_installed` datetime,
+	`date_callback` datetime,
+	`device_name` VARCHAR(50),
+	`dispatch_type` ENUM('hand_delivered', 'courier') NOT NULL,
+	`auto_update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`, `org_id`),
+	KEY `org_id` (`org_id`, `store_id`));
+DELETE FROM `instore_ai_devices`.`installation_details`;
+ALTER TABLE `instore_ai_devices`.`installation_details` ADD (`is_active` BOOLEAN DEFAULT TRUE, `store_name` VARCHAR(50) NOT NULL);
 INSERT IGNORE INTO `instore_ai_devices`.`installation_details` (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) VALUES(202481598057812,'1543','12844342',NULL,'','2018-07-14',NULL,'CFS_Main_Entrance_1','CFS_Banjara Hills',1,'hand_delivered');
 INSERT IGNORE INTO `instore_ai_devices`.`installation_details` (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) VALUES(202481598194976,'1543','12844342',NULL,'','2018-07-14',NULL,'CFS_Main_Entrance_2','CFS_Banjara Hills',1,'hand_delivered');
 INSERT IGNORE INTO `instore_ai_devices`.`installation_details` (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) VALUES(202481587567440,'810','12794260',NULL,'',NULL,NULL,NULL,'MM BLR MANTRI MALL',1,'hand_delivered');
@@ -293,4 +298,3 @@ INSERT IGNORE INTO `instore_ai_devices`.`installation_details` (`device_id`, `or
 INSERT IGNORE INTO `instore_ai_devices`.`installation_details` (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) VALUES(202481602196509,'1611','12844748',NULL,'2018-08-29','2018-09-04',NULL,'Raghunathpur_Main_Entrance_1','Stellar VIP Road Raghunathpur',1,'courier');
 INSERT IGNORE INTO `instore_ai_devices`.`installation_details` (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) VALUES(202481596122492,'1555','12840520',NULL,'','2018-05-03',NULL,NULL,'SB Salkia',1,'hand_delivered');
 INSERT IGNORE INTO `instore_ai_devices`.`installation_details` (`device_id`, `org_id`, `store_id`, `engagement_type`, `date_dispatched`, `date_installed`, `date_callback`, `device_name`,`store_name`, `is_active`, `dispatch_type`) VALUES(202481600136184,'1543','12844241',NULL,'','2018-07-05',NULL,NULL,'tbz mumbai borivalli',1,'hand_delivered');
-COMMIT;

@@ -1,0 +1,14 @@
+device_id,store_name,wifi_mac_id,lan_mac_id,PO,org_id,store_id,engagement_type,date_dispatched,date_installed,date_callback,hardware_extension,device_name,device_type_id,device_type_desc,processor,lens,with_rf_switch,case_size,case_color,is_active
+202481597311903,Malad Mumbai,b8:27:eb:fb:3e:ca,,,150789,200089317,Rollout,2018-04-24,2018-04-24,,,114_1stfloor_3,,VM,Rasberry Pi,V2,No,,White,1
+202481587353661,Malad Mumbai,b8:27:eb:43:2d:68,,,150789,200089317,Rollout,2018-04-24,2018-04-24,2018-09-05,,114_1stfloor_2,,VM,Rasberry Pi,V2,No,,White,0
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
