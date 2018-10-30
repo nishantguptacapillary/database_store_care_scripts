@@ -1,0 +1,9 @@
+device_id,store_name,wifi_mac_id,lan_mac_id,PO,org_id,store_id,engagement_type,date_dispatched,date_installed,date_callback,hardware_extension,device_name,device_type_id,device_type_desc,processor,lens,with_rf_switch,case_size,case_color,is_active
+202481588466457,H79 Marketcity Whitefield,,,,150286,200058785,Pilot,2018-09-02,2018-09-03,2018-10-05,,h79_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,0
+202481595840838,T03 The Forum,,,,150286,200030043,Pilot,2018-09-02,2018-09-06,2018-10-05,,T03_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,0
+202481601025801,DICKENSONROAD,,,,150330,200036277,Pilot,2018-07-10,2018-07-10,,,,,VM,Rasberry Pi,V2,No,,White,0
+202481597174449,JAYANAGAR,,,,150330,200036234,Pilot,2018-06-26,2018-06-26,,,,,VM,Rasberry Pi,V2,No,,White,0
+202481592396116,KORAMANGALA,,,,150330,200036242,Pilot,2018-07-04,2018-07-04,,,,,VM,Rasberry Pi,V2,No,,White,0
+202481591437879,MALLESWARAM,,,,150330,200082405,Pilot,2018-07-11,2018-07-11,,,,,VM,Rasberry Pi,V2,No,,White,0
+202481600707304,MALLESWARAM,,,,150330,200082405,Pilot,2018-07-11,2018-07-11,,,,,VM,Rasberry Pi,V2,No,,White,0
+202481592977102,Paskal Hyper Squre Justice,,,,150698,200080635,Rollout,2018-07-02,2018-07-02,,,,,VM,Rasberry Pi,V2,No,,White,0

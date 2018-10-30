@@ -1,0 +1,94 @@
+device_id,store_name,wifi_mac_id,lan_mac_id,PO,org_id,store_id,engagement_type,date_dispatched,date_installed,date_callback,hardware_extension,device_name,device_type_id,device_type_desc,processor,lens,with_rf_switch,case_size,case_color,is_active
+202481593988662,Grand Indonesia Mall MC,b8:27:eb:2e:e3:63,b8:27:eb:7b:b6:36,,150698,200080668,Rollout,2018-08-10,2018-09-27,,,MothercareGIM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481593964675,New Grand Indonesia ELC,b8:27:eb:2e:0d:d6,b8:27:eb:7b:58:83,,150698,200080669,Rollout,2018-08-10,2018-09-27,,,ELCGRE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481592301948,Grand Indonesia Nike,b8:27:eb:34:ac:29,b8:27:eb:61:f9:7c,,150698,200080670,Rollout,2018-08-10,2018-09-28,,,NikeGIN_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481597741315,Plaza Indonesia Miniapolis GS,b8:27:eb:e1:ac:56,b8:27:eb:b4:f9:03,,150698,200080617,Rollout,2018-08-10,2018-09-28,,,GingersnapsPLG_Mai_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481595096314,Senayan City GS,b8:27:eb:d9:c9:af,b8:27:eb:8c:9c:fa,,150698,200080715,Rollout,2018-08-10,2018-09-29,,,GingersnapsSCG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481601638864,Kelapa Gading Wilio,b8:27:eb:a5:24:85,b8:27:eb:f0:71:d0,,150698,200106150,Rollout,2018-08-10,2018-10-02,,,WILIOKGO_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481588309075,Kelapa Gading Wilio,,,,150698,200106150,Rollout,2018-08-10,2018-10-02,,,WILIOKGO_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481588983570,Plaza Indonesia Miniapolis,b8:27:eb:7a:02:47,b8:27:eb:2f:57:12,,150698,200080694,Rollout,2018-08-10,2018-10-02,,,MothercarePLM_Main-Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481586652596,Plaza Indonesia Miniapolis,b8:27:eb:5e:90:e1,b8:27:eb:0b:c5:b4,,150698,200080694,Rollout,2018-08-10,2018-10-02,,,MothercarePLM_Main-Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481601387337,Plaza Indonesia Miniapolis,b8:27:eb:b9:ce:1C,b8:27:eb:ec:9b:49,,150698,200080694,Rollout,2018-08-10,2018-10-02,,,MothercarePLM_Main-Entrance_3,,VM,Rasberry Pi,V2,No,,White,1
+202481600884600,New Kelapa Gading,b8:27:eb:b1:ba:2d,b8:27:eb:e4:ef:78,,150698,200080699,Rollout,2018-09-19,2018-10-02,,,MothercareKLM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481594046242,Kelapa Gading ELC New,b8:27:eb:29:c2:77,b8:27:eb:7c:97:22,,150698,200080698,Rollout,2018-09-19,2018-10-02,,,ELCKLE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481591875018,Kelapa Gading GS,b8:27:eb:0e:20:9f,b8:27:eb:5b:75:ca,,150698,200080700,Rollout,2018-09-19,2018-10-02,,,GingersnapsKGG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596190623,Pacific Place Mall,b8:27:eb:c8:1a:ca,b8:27:eb:9d:4f:9f,,150698,200080704,Rollout,2018-09-19,2018-10-03,,,MothercarePPM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481589486190,MITRA10 PESANGGRAHAN,b8:27:eb:62:57:3b,b8:27:eb:37:02:6e,,150432,200090443,Rollout,2018-07-05,2018-10-02,,,10050_Main_Entrance_1,,VM,Rasberry Pi,V2,Yes,,White,1
+202481593806486,Kota Kasablanka ELC,b8:27:eb:2d:bb:c3,b8:27:eb:78:ee:96,,150698,200080679,Rollout,2018-09-19,2018-10-03,,,ELCKKE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481600473874,Senayan City Mall,b8:27:eb:8b:fe:47,b8:27:eb:de:ab:12,,150698,200080714,Rollout,2018-09-19,2018-10-03,,,MothercareSCM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481591025358,Senayan City Mall,b8:27:eb:1b:2b:9b,b8:27:eb:4e:7e:ce,,150698,200080714,Rollout,2018-09-19,2018-10-03,,,MothercareSCM_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481597312388,Pacific Place ELC,b8:27:eb:fb:38:d1,b8:27:eb:ae:6d:84,,150698,200080708,Rollout,2018-09-19,2018-10-03,,,ELCPPE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481595445089,Grand Indonesia Wilio,,,,150698,200080666,Rollout,,2018-10-04,,,WILIOGIO_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481601737952,Grand Indonesia Wilio,,,,150698,200080666,Rollout,,2018-10-04,,,WILIOGIO_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590551039,Gandaria City,,,,150698,200080675,Rollout,,2018-10-04,,,MothercareGAM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481593583630,Gandaria City,,,,150698,200080675,Rollout,,2018-10-04,,,MothercareGAM_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481590616504,Pacific Place GS,b8:27:eb:1d:14:ed,b8:27:eb:48:41:b8,,150698,200080707,Rollout,2018-09-19,2018-10-04,,,GingersnapsPPG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481599579913,Pondok Indah Mall 2,,,,150698,200080719,Rollout,2018-09-19,2018-10-04,,,MothercarePIM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481601839667,Mothercare Lippo Puri Indah,b8:27:eb:a6:d7:66,b8:27:eb:f3:82:33,,150698,200103123,Rollout,2018-09-19,2018-10-04,,,MothercareLPM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598634548,Mothercare Lippo Puri Indah,b8:27:eb:97:cf:61,b8:27:eb:c2:9a:34,,150698,200103123,Rollout,2018-09-19,2018-10-04,,,MothercareLPM_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481599560575,Puri Mall GS,b8:27:eb:85:ee:2a,b8:27:eb:d0:bb:7f,,150698,200080621,Rollout,2018-09-19,2018-10-04,,,GingersnapsPUG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598090540,Kasablanca GS,b8:27:eb:ef:18:79,b8:27:eb:ba:4d:2c,,150698,200080678,Rollout,2018-09-19,2018-10-05,,,GingersnapsKKG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481593140662,Bandung Supermall,b8:27:eb:3b:90:e3,b8:27:eb:6e:c5:b6,,150698,200080737,Rollout,2018-09-19,2018-10-06,,,MothercareBSM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481600653992,Bandung Supermall ELC,b8:27:eb:b4:3f:fd,b8:27:eb:e1:6a:a8,,150698,200080736,Rollout,2018-09-19,2018-10-06,,,ELCBSE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481588874946,Pluit Emporium Mall,b8:27:eb:78:fb:97,b8:27:eb:2d:ae:c2,,150698,200080710,Rollout,2018-09-19,2018-10-06,,,MothercarePEM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481588230240,Pluit Emporium Mall ELC,b8:27:eb:76:8d:35,b8:27:eb:23:d8:60,,150698,200080712,Rollout,2018-09-19,2018-10-06,,,ELCPEE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481597004467,Sumarecon Mall ELC,b8:27:eb:fc:ef:e6,b8:27:eb:a9:ba:b3,,150698,200080705,Rollout,2018-09-19,2018-10-06,,,ELCSME_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481593175234,Supermal Karawaci MC,b8:27:eb:3a:19:97,b8:27:eb:6f:4c:c2,,150698,200080644,Rollout,2018-09-19,2018-10-06,,,MothercareSKM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481600860178,Pantai Indah Kapuk Avenue,b8:27:eb:b1:c5:47,b8:27:eb:e4:90:12,,150698,200080665,Rollout,2018-09-19,2018-10-07,,,MothercarePKM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481594332751,Pantai Indah Kapuk GS,b8:27:eb:d5:a3:1a,b8:27:eb:80:f6:4f,,150698,200080703,Rollout,2018-09-19,2018-10-07,,,GingersnapsPKG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481592977984,Summarecon Bekasi MC,b8:27:eb:39:1f:15,b8:27:eb:6c:4a:40,,150698,200080684,Rollout,2018-09-19,2018-10-07,,,MothercareSBM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481588811631,Summarecon Bekasi ELC,b8:27:eb:79:e2:3a,b8:27:eb:2c:b7:6f,,150698,200080685,Rollout,2018-09-19,2018-10-07,,,ELCSBE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481588877053,Taman Anggrek Mall,b8:27:eb:78:e3:a8,b8:27:eb:2d:b6:fd,,150698,200080647,Rollout,2018-09-19,2018-10-08,,,MothercareTA_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481595185461,Taman Anggrek ELC,b8:27:eb:d8:ac:60,b8:27:eb:8d:f9:35,,150698,200080646,Rollout,2018-09-19,2018-10-08,,,ELCTAE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481587297622,Kemang Village MC,b8:27:eb:40:c8:03,b8:27:eb:15:9d:56,,150698,200080682,Rollout,2018-09-19,2018-10-09,,,MothercareKVM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481589259116,Kemang Village ELC,b8:27:eb:66:de:39,b8:27:eb:33:8b:6c,,150698,200080681,Rollout,2018-09-19,2018-10-09,,,ELCKVE-Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596157137,Plaza Senayan,b8:27:eb:c9:99:84,b8:27:eb:9c:cc:d1,,150698,200080620,Rollout,2018-09-10,2018-10-10,,,HAVAIANASPSV_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481600095727,Plaza Senayan,b8:27:eb:8d:b0:ba,b8:27:eb:d8:e5:ef,,150698,200080620,Rollout,2018-09-10,2018-10-10,,,HAVAIANASPSV_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596399858,Sumarecon Mall MC,b8:27:eb:f5:d5:a7,b8:27:eb:a0:80:f2,,150698,200080643,Rollout,2018-09-19,2018-10-06,,,MothercareSMM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481589413344,Paskal Hyper Squre Justice,b8:27:eb:60:b0:b5,b8:27:eb:35:e5:e0,,150698,200080635,Rollout,2018-07-02,2018-07-02,,,,,VM,Rasberry Pi,V2,No,,White,1
+202481586064501,Pondok Indah ELC,,,,150698,200080720,Rollout,,2018-10-12,,,ELCPIE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590791215,Pondok Indah Mall GS,,,,150698,200080722,Rollout,,2018-10-12,,,GingersnapsPIG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481600443145,Central Park ELC,b8:27:eb:8b:66:5c,b8:27:eb:de:33:09,,150698,200080676,Rollout,2018-09-19,2018-10-12,,,ELCCPE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598103795,Central Park MC,b8:27:eb:ef:d5:a6,b8:27:eb:ba:80:f3,,150698,200080677,Rollout,2018-09-19,2018-10-12,,,MothercareCPM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598034692,Central Park MC,b8:27:eb:ec:26:51,b8:27:eb:b9:73:04,,150698,200080677,Rollout,2018-09-19,2018-10-12,,,MothercareCPM_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481591691451,Paskal Hyper Square,b8:27:eb:0d:fd:ee,b8:27:eb:58:a8:bb,,150698,200080732,Rollout,2018-09-19,2018-10-12,,,MothercarePHM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598513110,Paskal Hyper Square,b8:27:eb:95:ea:83,b8:27:eb:c0:bf:d6,,150698,200080732,Rollout,2018-09-19,2018-10-12,,,MothercarePHM_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481599203755,Senayan City Wilio,,,,150698,200106149,Rollout,2018-04-25,2018-10-13,,,WILIOSCO_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481597229456,Senayan City Wilio,b8:27:eb:f8:7c:c5,b8:27:eb:ad:29:90,,150698,200106149,Rollout,2018-08-10,2018-10-13,,,WILIOSCO_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481589189718,Senayan City SCV,b8:27:eb:67:29:03,b8:27:eb:32:7c:56,,150698,200108393,Rollout,2018-08-10,2018-10-13,,,SenayanCitySCV_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481602021654,Galaxy Surabaya GS,b8:27:eb:a3:1c:43,b8:27:eb:f6:49:16,,150698,200080659,Rollout,2018-09-19,2018-10-13,,,GingersnapsGLG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481602227034,Plaza Indonesia Wilio,,,,150698,200080618,Rollout,2018-04-25,2018-10-14,,,WILIOPLO_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590404754,Plaza Indonesia Wilio,b8:27:eb:10:53:c7,b8:27:eb:45:06:92,,150698,200080618,Rollout,2018-08-10,2018-10-14,,,WILIOPLO_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481598637375,Kota Kasablanka MC,b8:27:eb:97:f0:6a,b8:27:eb:c2:a5:3f,,150698,200080680,Rollout,2018-09-19,2018-10-14,,,MothercareKKM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481602636120,Tunjungan Plaza 5 Mothercare,b8:27:eb:aa:fc:0d,b8:27:eb:ff:a9:58,,150698,200080742,Rollout,2018-09-19,2018-10-14,,,MothercareTMM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481599230998,Tunjungan Plaza 5 ELC,b8:27:eb:9e:e1:43,b8:27:eb:cb:b4:16,,150698,200080743,Rollout,2018-09-19,2018-10-14,,,ELCTME_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481589577463,Havaianas tpv,b8:27:eb:6d:33:a2,b8:27:eb:38:66:f7,,150698,200086935,Rollout,2018-09-19,2018-10-14,,,HAVAIANASTPV_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481600524127,Tunjungan Plaza GS,b8:27:eb:8a:3a:0a,b8:27:eb:df:6f:5f,,150698,200080654,Rollout,2018-09-28,2018-10-14,,,GingersnapsTPG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481599268024,Supermall Pakuwon Surabaya MC,b8:27:eb:99:11:ed,b8:27:eb:cc:44:b8,,150698,200080623,Rollout,2018-09-19,2018-10-11,,,MothercareSPM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481594677733,Havaianas Pakuwon Mall,b8:27:eb:d3:6c:b0,b8:27:eb:86:39:e5,,150698,200080624,Rollout,2018-09-19,2018-10-11,,,HAVAIANASSPV_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481591775681,Havaianas Pakuwon Mall,b8:27:eb:0c:a4:94,b8:27:eb:59:f1:c1,,150698,200080624,Rollout,2018-09-28,2018-10-11,,,HAVAIANASSPV_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481599026961,Supermall Pakuwon Subabaya GS,b8:27:eb:9d:c2:44,b8:27:eb:c8:97:11,,150698,200080750,Rollout,2018-09-19,2018-10-11,,,GingersnapsSPG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590583567,Tunjungan Plaza Wilio,b8:27:eb:12:94:5a,b8:27:eb:47:c1:0f,,150698,200080629,Rollout,2018-08-10,2018-10-12,,,WILIOTPO_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481599057206,Tunjungan Plaza Wilio,b8:27:eb:9c:58:63,b8:27:eb:c9:0d:36,,150698,200080629,Rollout,2018-08-10,2018-10-12,,,WILIOTPO_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481598838237,Centre Point MC,b8:27:eb:90:e0:88,b8:27:eb:c5:b5:dd,,150698,200080763,Rollout,2018-09-19,2018-10-15,,,MothercareCMM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481593239859,Bintaro Xchange ELC,b8:27:eb:25:1c:66,b8:27:eb:70:49:33,,150698,200080662,Rollout,2018-09-19,2018-10-16,,,ELCBXE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481599840297,Bintaro Exchange MC,b8:27:eb:80:55:7c,b8:27:eb:d5:00:29,,150698,200080663,Rollout,2018-09-19,2018-10-16,,,MothercareBXM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481587568737,Bintaro Xchange GS,b8:27:eb:4c:95:34,b8:27:eb:19:c0:61,,150698,200080664,Rollout,2018-09-19,2018-10-16,,,GingersnapsBXG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481601536655,Sun Plaza Medan,b8:27:eb:bb:b7:da,b8:27:eb:ee:e2:8f,,150698,200080766,Rollout,2018-09-19,2018-10-17,,,MothercareSUM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481595119898,Sun Plaza GS,b8:27:eb:d9:ac:4f,b8:27:eb:8c:f9:1a,,150698,200080765,Rollout,2018-09-19,2018-10-17,,,GingersnapsSUG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481595265270,Gandaria City GAV,b8:27:eb:da:65:a3,b8:27:eb:8f:30:f6,,150698,200108395,Rollout,2018-08-10,2018-10-18,,,GandariaCityGAV_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481594810361,Gandaria City GAV,b8:27:eb:dd:6a:ac,b8:27:eb:88:3f:f9,,150698,200108395,Rollout,2018-09-10,2018-10-18,,,GandariaCityGAV_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481602654914,Senayan City ELC,b8:27:eb:aa:a7:97,b8:27:eb:ff:f2:c2,,150698,200080713,Rollout,2018-08-10,2018-10-18,,,ELCSCE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481592694725,Sunset Road Bali,b8:27:eb:32:a2:90,b8:27:eb:67:f7:c5,,150698,200080593,Rollout,2018-09-28,2018-10-20,,,HAVAIANAS9SS_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481600078659,Bali Discovery Mall,b8:27:eb:8d:f6:16,b8:27:eb:d8:a3:43,,150698,200080660,Rollout,2018-09-19,2018-10-19,,,MothercareBDM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481587084920,Bali Beach Walk MC,b8:27:eb:47:0b:2d,b8:27:eb:12:5e:78,,150698,200080753,Rollout,2018-09-28,2018-10-21,,,MothercareBBM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590205806,Bali Beach ELC,b8:27:eb:14:a8:3b,b8:27:eb:41:fd:6e,,150698,200080754,Rollout,2018-09-19,2018-10-21,,,ELCBBE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481600449103,Bali Beach Walk,b8:27:eb:8b:1f:1a,b8:27:eb:de:4a:4f,,150698,200080594,Rollout,2018-09-19,2018-10-22,,,HAVAIANASBBV_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481590610223,Bali Beach GS,b8:27:eb:1d:7c:7a,b8:27:eb:48:29:2f,,150698,200080755,Rollout,2018-09-28,2018-10-22,,,GingersnapsBBG_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481596470820,Ratu Indah Mall Makassar,b8:27:eb:f4:c3:71,b8:27:eb:a1:96:24,,150698,200080661,Rollout,2018-09-19,2018-10-23,,,MothercareRIM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481589002827,Ratu Indah Mall Makassar,b8:27:eb:7a:f7:1e,b8:27:eb:2f:a2:4b,,150698,200080661,Rollout,2018-09-10,2018-10-23,,,MothercareRIM_Main_Entrance_2,,VM,Rasberry Pi,V2,No,,White,1
+202481598814694,WS_PAP_CONVERSE _THANE_ VIVA CITY,b8:27:eb:90:0c:b3,b8:27:eb:c5:59:e6,,150083,200060571,Rollout,2018-10-16,2018-10-23,,,F64_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481588815963,7604 ILCL MUMBAI GHATKOPAR RUNMALL,b8:27:eb:79:9d:0e,b8:27:eb:2c:c8:5b,,150083,200016436,Rollout,2018-10-16,2018-10-23,,,C43_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481602426122,Trans Studio Mall,b8:27:eb:a9:20:5f,b8:27:eb:fc:75:0a,,150698,200080757,Rollout,2018-09-19,2018-10-24,,,MothercareTSM_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481599579980,Trans Studio Makasar,b8:27:eb:84:52:19,b8:27:eb:d1:07:4c,,150698,200080756,Rollout,2018-09-19,2018-10-24,,,ELCTSE_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
+202481595721155,WS_DSC_CONVERSE_NEW DELHI_SAROJINI NAGAR,b8:27:eb:c3:70:96,b8:27:eb:96:25:c3,,150083,200060162,Rollout,2018-10-16,2018-10-23,,,F59_Main_Entrance_1,,VM,Rasberry Pi,V2,No,,White,1
